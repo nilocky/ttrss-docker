@@ -15,7 +15,7 @@ ttrss:
   - DB_HOST=postgres
   - DB_NAME=ttrss
   - DB_USER=ttrss
-  - BASE_URL=http://localhost:8000/
+  - BASE_URL=https://ttrss.lab.thinksdesign.com/
 nginx:
   image: nginx:stable-alpine
   links:
